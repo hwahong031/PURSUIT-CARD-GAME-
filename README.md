@@ -2,7 +2,7 @@
 
 ## Data Structure and Algorithm Implementation
 Participants
-- Sequential? / simultaneously? 
+- Linked List
 
 Question
 - Array?
@@ -19,4 +19,6 @@ Search Function
 Sort Function
 - Bubble Sort/Insertion Sort, etc
 
+Flow: 
+1. 
 
