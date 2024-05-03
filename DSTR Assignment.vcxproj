@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="G36_TP068202_TP070822_TP070823_quiz_card_game.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="G36_TP068202_TP070822_TP070823_quiz_question.csv" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
