@@ -100,6 +100,27 @@
 99|How does C++ ensure type safety when using pointers?|A) By restricting pointer arithmetic|B) By automatically initializing pointers|C) By disallowing pointers altogether|D) By enforcing strict naming conventions|A
 100|What is the significance of the ampersand (&) operator in C++?|A) Returns the memory address of a variable|B) Indicates a reference variable|C) Denotes the size of a variable|D) Represents the bitwise AND operation|A
 
+
+181|What is a queue in data structures?|A) A list of homogeneous elements|B) A list of heterogeneous elements|C) A list of elements added at the front|D) A list of elements deleted from the front|A
+182|What is the characteristic feature of a FIFO data structure?|A) Elements are added at the back|B) Elements are added at the front|C) Elements are deleted from the back|D) Elements are deleted from the front|D
+183|In a queue, how are elements added and deleted?|A) Added at the front, deleted from the back|B) Added at the back, deleted from the front|C) Added at the front, deleted from the front|D) Added at the back, deleted from the back|B
+184|What is a common real-life example of a queue?|A) A stack of books|B) A group of people waiting in line|C) A random collection of items|D) A pool of resources|B
+185|What is a priority queue?|A) A queue where elements are added based on priority|B) A queue with fixed size|C) A queue where elements are added randomly|D) A queue where elements are added alphabetically|A
+186|What are the standard operations in a queue?|A) addQueue, removeQueue, isEmpty|B) addQueue, deleteQueue, isFull|C) addQueue, deleteQueue, isEmpty|D) addQueue, deleteFront, deleteRear|C
+187|How is a queue implemented using arrays?|A) Elements are added using a rear index|B) Elements are added using a front index|C) Elements are removed using a rear index|D) Elements are removed using a front index|A
+188|What issue arises with a fixed-size array implementation of a queue?|A) Memory leaks|B) Dangling pointers|C) Queue overflow|D) Circular array handling|C
+189|How is a queue implemented using linked lists?|A) Elements are added at the beginning|B) Elements are added at the end|C) Elements are removed from the beginning|D) Elements are removed from the end|B
+190|What are the four data members of a queue implemented using arrays?|A) Array, front index, rear index, maximum size|B) Array, front index, rear index, count|C) Linked nodes, front pointer, rear pointer, count|D) Array, head pointer, tail pointer, size|B
+191|How is a new element added to the end of a queue implemented using arrays?|A) Advance front index|B) Advance rear index|C) Add element at front index|D) Add element at rear index|B
+192|How is the size of a queue determined in the linked list implementation?|A) By the number of elements|B) By the maximum capacity|C) By the front pointer|D) By the rear pointer|A
+193|What does the deleteQueue operation in a queue return?|A) The first element|B) The last element|C) The middle element|D) The highest priority element|A
+194|In the linked list implementation, what is stored in the queueRear pointer?|A) Address of the first node|B) Address of the last node|C) Number of elements|D) Address of the next node|B
+195|How is the count variable used to determine if a queue is empty?|A) Incremented when an element is added|B) Decremented when an element is added|C) Incremented when an element is removed|D) Decremented when an element is removed|C
+196|What is the purpose of the lastOpAddQ boolean variable in queue implementation?|A) To track the last operation performed|B) To determine the queue size|C) To check if the queue is full|D) To indicate if an element was recently added|D
+197|What is the role of the count variable in queue implementation?|A) To store the maximum capacity|B) To track the last operation performed|C) To indicate the number of elements|D) To determine if the queue is full|C
+198|How is memory deallocated to avoid dangling pointers in queue implementation?|A) Using deleteFront operation|B) Using deleteRear operation|C) Using the delete operator|D) Using the new operator|C
+199|Which operator creates dynamic variables in queue implementation?|A) delete|B) deleteFront|C) new|D) newFront|C
+200|In the provided code snippet, what is the purpose of the system("pause") statement?|A) To pause the program execution|B) To clear the screen|C) To wait for user input|D) To display a message|C
 201|What type of data structure is suitable for hierarchically organized data items?|A) Linked lists|B)Trees|C)Stacks|D)Queues|B
 202|What is the top-level node in a tree called?|A) Parent|B) Leaf|C) Root|D) Child|C
 203|What do you call nodes at the same level in a tree?|A) Descendants|B) Parents|C) Siblings|D) Leaves|C
